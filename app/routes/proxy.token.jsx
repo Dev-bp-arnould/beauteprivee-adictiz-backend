@@ -1,6 +1,6 @@
 // app/routes/proxy.token.jsx
 import { json } from "@remix-run/node";
-import { generateJWT } from "../../utils/generate-jwt.js";
+import { generateJWT } from "../utils/generate-jwt.js";
 
 export async function loader({ request }) {
   console.log("✅ Route /proxy/token hit");

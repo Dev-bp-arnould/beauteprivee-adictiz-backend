@@ -16,7 +16,7 @@ scopes = "write_products"
 redirect_urls = [ "https://example.com/api/auth" ]
 
 [app_proxy]
-url = "https://adictiz-game.onrender.com/proxy"
+url = "https://beauteprivee-adictiz-backend.onrender.com"
 subpath = "adictiz"
 prefix = "apps"
 
