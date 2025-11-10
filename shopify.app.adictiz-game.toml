@@ -1,0 +1,22 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "73f81d349d02551f67e9ccc0c4169c63"
+name = "Adictiz-game"
+application_url = "https://example.com"
+embedded = true
+
+[webhooks]
+api_version = "2026-01"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [ "https://example.com/api/auth" ]
+
+[app_proxy]
+url = "https://adictiz-game.onrender.com/proxy"
+subpath = "adictiz"
+prefix = "apps"
+
